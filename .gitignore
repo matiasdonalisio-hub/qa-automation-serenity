@@ -1,0 +1,20 @@
+# Maven: todo lo compilado y los reportes se regeneran, no se versionan
+target/
+
+# IntelliJ IDEA: configuración local de cada máquina
+.idea/
+*.iml
+out/
+
+# Python (paso pytest, más adelante)
+__pycache__/
+.venv/
+.pytest_cache/
+
+# Secretos y variables locales: NUNCA al repo
+.env
+*.env.local
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
